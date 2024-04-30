@@ -6,7 +6,7 @@ export default function Profile({ name, tag, location, image, stats: { followers
                 alt="User avatar" width='200'
             />
             <p>{name}</p>
-            <p>{tag}</p>
+            <p>@{tag}</p>
             <p>{location}</p>
         </div>
 
